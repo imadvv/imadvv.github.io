@@ -1,0 +1,20 @@
+:root {
+
+    /* Color scheme */
+
+    --clr-primary: #031220;
+    --clr-secondary: #00566c;
+    --clr-accent: #0098fa;
+    --clr-natural: #EEFAFF;
+    --clr-light: #f1f1e6;
+
+    /* Topography */
+
+    --fs-body: clamp(1.01rem, 2rem + 1px, 3rem);
+}
+
+body {
+
+    background-color: var(--clr-primary);
+    color: var(--clr-natural);
+}
