@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "serve": "http-server ."
+        "serve": "http-server .",
+        "watchjs": "tsc --watch ./ts/*.ts --outDir js"
     },
     "keywords": [],
     "author": "",
